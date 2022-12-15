@@ -13,4 +13,10 @@ public class GameController {
             cars.add(new Car(player));
         }
     }
+    public List<Car> getCars(){
+        return cars;
+    }
+    public Integer getCount(){
+        return count;
+    }
 }
